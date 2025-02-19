@@ -18,6 +18,10 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      fontFamily: {
+        sans: ['ui-sans-serif', 'var(--font-geist-sans)'],
+        mono: ['ui-monospace', 'var(--font-geist-mono)'],
+      },
     },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
