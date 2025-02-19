@@ -4,5 +4,5 @@ import Page from '../app/page';
 
 test('Page', () => {
   render(<Page />);
-  expect(screen.getByRole('img', { name: 'Next.js logo' })).toBeDefined();
+  expect(screen.getByRole('img', { name: 'Next.js logo' })).toBeInTheDocument();
 });
